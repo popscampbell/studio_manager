@@ -17,7 +17,7 @@ jobs:
       uses: appleboy/ssh-action@v0.1.7
       with:
         host: ${{ secrets.RACKSTATION_HOST }}
-        username: ${{ secrets.RACKSTATION_USER }}
+        username: mike
         key: ${{ secrets.RACKSTATION_SSH_KEY }}
         script: |
           cd /path/to/your/app
